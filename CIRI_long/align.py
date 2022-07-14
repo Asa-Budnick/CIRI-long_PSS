@@ -30,18 +30,18 @@ OPERATION = {
 }
 
 SPLICE_SIGNAL = {
-    ('GT', 'AG'): 0,  # U2-type
+    ('GT', 'AG'): 1,  # U2-type
     ('GC', 'AG'): 1,  # U2-type
     ('AT', 'AC'): 2,  # U12-type
     ('GT', 'AC'): 2,  # U12-type
     ('AT', 'AG'): 2,  # U12-type
-    # ('GT', 'TG'): 3,  # non-canonical
-    # ('AT', 'AG'): 3,  # non-canonical
-    # ('GA', 'AG'): 3,  # non-canonical
-    # ('GG', 'AG'): 3,  # non-canonical
-    # ('GT', 'GG'): 3,  # non-canonical
-    # ('GT', 'AT'): 4,  # non-canonical
-    # ('GT', 'AA'): 4,  # non-canonical
+     ('GT', 'TG'): 3,  # non-canonical
+     ('AT', 'AG'): 3,  # non-canonical
+     ('GA', 'AG'): 3,  # non-canonical
+     ('GG', 'AG'): 3,  # non-canonical
+     ('GT', 'GG'): 3,  # non-canonical
+     ('GT', 'AT'): 3,  # non-canonical
+     ('GT', 'AA'): 3,  # non-canonical
 }
 
 
